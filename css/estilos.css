@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 3%;
+    height: 100%;
+    width: auto;
+    padding-bottom: 60px;
+    padding-top:20px;
+    margin: 10px;
+
+}
+
+h1:hover{
+    color: rgb(250, 250, 7);
+    font-weight: bold;
+    background: linear-gradient(145deg, #999999, #000000 );
+    color: white;
+}
+
+h1:hover {
+    transform: scale(1.1);
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#logoAmarillo {
+    max-height: 230px; 
+    max-width:  400px;
+    margin-left: -65%;
+}
+
+header {
+    width: auto;
+    height: 100vh;
+    background-image: url(../imagenes/imagenAlfajor.jpeg);
+    text-align: center;
+}
+
+
+
+.box img {
+    margin: 40px;
+    width: 700px;
+    text-align: left;
+}
+
+
+
+main {
+    position: relative;
+    text-align: center;
+}
+
+nav {
+    position: absolute;
+    position: sticky;
+    font-weight: 700;
+    width: 100%;
+    top:auto;
+    height: 60px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.5em;
+    background-color:  rgb(58, 58, 53);
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    color: rgb(250, 250, 7);
+    font-weight: bold;
+}
+
+li {
+    padding: 20px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(5, 4, 4);
+    background-size: cover;
+    background-color: rgb(36, 34, 34);
+}
+
+h1{
+    color: white;
+    margin-top: 30px;
+    font-weight: 900;
+    line-height: 1em;
+    font-size: 6em;
+    height: auto;
+    letter-spacing: -5px;
+    margin-left: 30px;
+}
+
+p{
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.parrafo{
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.nosotros{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: auto;
+    padding-bottom: 60px;
+    padding-top:20px;
+    font-size: 6em;
+}
+
+/* SECCION FOOTER */
+
+footer {
+    display: flex;
+    background-color: rgb(58, 58, 53);
+    color: hsl(51, 94%, 50%);
+    height: 100px;
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+    margin: 5px auto;
+}
+
+.items { 
+    display:flex;
+    padding: 10px 10px 0px 10px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+}
+
+/* SECCION CONTACTO*/
+
+.contenedorForm{ 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    width: 55%;
+    height: 150%;
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.etiqueta{
+    color: white;
+    text-align:left;
+}
+.etEmail{
+    color: white;
+    text-align: left;
+}
+
+.comentario{
+    color: white;
+}
+
+/*SECCION FRANQUICIA*/
+
+
+.contenedor{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.boton{
+    transition: 0.3s;
+    border: none;
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #D0D3D4 , #17202A );
+    color: white;
+    font-weight: 600;
+}
+
+.boton:hover {
+    transform: scale(1.1);
+    color: black;
+  }
+
+.parrafoFranquicia{
+    height: 100%;
+    width: auto;
+    padding-bottom: 60px;
+    padding-top:20px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+/*SECCION NOSOTROS*/
+
+.nosotros{
+    text-align: center;
+    line-height: 1.6;
+    font-size: 1.2em;
+}
+
+/* SECCION GALERIA */
+
+.imagenes{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 300px 300px;
+    grid-template-areas: "foto1 foto2 foto3"
+                         "foto6 foto4 foto5";
+    row-gap: 10px;
+    column-gap: 10px;
+}
+    
+.imagenUno{
+    grid-area: foto1;
+    transition: transform 0.2s;
+}
+
+.imagenUno:hover{
+    transform: scale(1.3);
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.imagenDos{
+    grid-area: foto2;
+    transition: transform 0.2s;
+}
+
+.imagenDos:hover{
+    transform: scale(1.3);
+}
+    
+
+.imagenTres{
+    grid-area: foto3;
+    transition: transform 0.2s;
+}
+
+.imagenTres:hover{
+    transform: scale(1.3);
+}
+
+
+.imagenCuatro{
+    grid-area: foto6;
+    transition: transform 0.2s;
+}
+
+.imagenCuatro:hover{
+    transform: scale(1.3);
+}
+
+
+.imagenCinco{
+    grid-area: foto5;
+    transition: transform 0.2s;
+}
+
+.imagenCinco:hover{
+    transform: scale(1.3);
+}
+
+.imagenSeis{
+    grid-area: foto4;
+    transition: transform 0.2s;
+}
+
+.imagenSeis:hover{
+    transform: scale(1.3);
+}
+
